@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.br {
+    height: 95px;
+    width: 100%;
+}
+
+/* header */
+header {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: fixed;
+    background-color: aliceblue;
+    z-index: 100;
+}
+
+header .navbar-brand {
+    float: left;
+    margin-left: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header nav {
+    height: 70px;
+    line-height: 50px;
+}
+
+header .logo {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    float: left;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+/* "popular-cources */
+.card {
+    margin: 5px;
+}
+
+
+.card-body {
+    padding: 10px;
+}
+
+
+/* all-cources */
+
+
+/* partners */
+
+
+/* promo */
+
+
+/* footer */ 

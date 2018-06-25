@@ -8,8 +8,17 @@ body {
 }
 
 .br {
-    height: 95px;
+    height: 70px;
     width: 100%;
+}
+
+section {
+    padding-top: 15px;
+}
+
+section .section-header {
+    font-size: 35px;
+    text-align: center;
 }
 
 /* header */
@@ -23,7 +32,7 @@ header {
 
 header .navbar-brand {
     float: left;
-    margin-left: 50px;
+    margin-left: 20px;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -40,24 +49,10 @@ header .logo {
     float: left;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: red;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: red;
-}
-
 /* "popular-cources */
 .card {
     margin: 5px;
 }
-
 
 .card-body {
     padding: 10px;
@@ -68,9 +63,19 @@ header .logo {
 
 
 /* partners */
+.parter {
+    text-align: center;
+}
 
+.parter-name {
+    font-size: 20px;
+    font-weight: 700;
+}
 
 /* promo */
+#promo {
+    margin-bottom: 100px;
+}
 
 
 /* footer */ 

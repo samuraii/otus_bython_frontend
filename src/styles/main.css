@@ -79,12 +79,25 @@ header .logo {
 
 }
 
-/* promo */
+/* feedback */
 
 #feedback {
     margin-bottom: 100px;
 }
 
+#feedback .card {
+    border: none;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #fefff9;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#feedback .card-img-top {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
 
 /* footer */ 
 footer {
